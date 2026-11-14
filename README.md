@@ -1,7 +1,7 @@
 # Cross-Session Drone Identification by Radio-Frequency-Anchored Optical Feature Fusion
 
-Core implementation of the method in the manuscript of the same title. Section, equation, figure and algorithm numbers in the code
-refer to that manuscript.
+Core implementation of **RAFF** (radio-frequency-anchored feature fusion), the method in the manuscript of the same title.
+Section, equation, figure and algorithm numbers in the code refer to that manuscript.
 
 ## Problem
 
@@ -47,7 +47,7 @@ Record accuracy on DroneMMset, two directions between sessions D00 and D01, mean
 | RF only (the RF anchor) | 0.828 | 0.755 |
 | Optical only (trained on the enrolment labels) | 0.199 | 0.191 |
 | CBST, the best published method in our comparison, adapted to record decisions | 0.917 | 0.885 |
-| **RF-anchored optical feature fusion** | **0.988** | **0.957** |
+| **RAFF** | **0.988** | **0.957** |
 
 ## Files
 
